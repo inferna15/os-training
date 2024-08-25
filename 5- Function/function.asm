@@ -9,7 +9,7 @@ call print_string
 
 jmp $
 
-%include "print_string.asm"
+%include "print-string.asm"
 
 ; Data
 HELLO_MSG:

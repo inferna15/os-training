@@ -1,3 +1,4 @@
+; bx register'ının işaret ettiği adres bloğundaki string değeri yazdırır.
 print_string:
     mov ah, 0x0e
     mov al, [bx]
